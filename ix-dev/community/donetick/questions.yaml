@@ -46,6 +46,8 @@ questions:
                 value: "300"
               - name: DT_SERVER_RATE_PERIOD
                 value: "60s"
+              - name: DT_SERVER_CORS_ALLOW_ORIGINS
+                value: "https://localhost,http://localhost,capacitor://localhost"
             items:
               - variable: env
                 label: Environment Variable
